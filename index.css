@@ -50,3 +50,8 @@ body {
     border-radius: 100px
 }
 
+/* Contenedor */
+.contenedor {
+    padding: 2%;
+    padding-top: 5%;
+}
