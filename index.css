@@ -56,6 +56,20 @@ body {
     padding-top: 5%;
 }
 
+/* Banners */
+.banner,
+.slideshow-container {
+    border: 1px solid black;
+}
+
+.banner,
+.bannerInicial,
+.bannerFavoritos,
+.bannerReseñas {
+    align-content: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
 
 /* Carrusel */
 .slideshow-container {
