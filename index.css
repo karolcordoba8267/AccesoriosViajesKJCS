@@ -101,3 +101,55 @@ body {
 .dot:hover {
     background-color: #717171;
 }
+
+
+/* Favoritos */
+.Favoritos {
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.grid-item1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+    margin: 10px;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    background-color: antiquewhite;
+}
+
+.button,
+.button1 {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.button:hover,
+.grid-item:hover {
+    background-color: antiquewhite;
+}
